@@ -2,16 +2,24 @@
 <html lang="en-us">
   <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="styleshet" href="./assets/css/reset.css">
+    <!-- <script type="text/javascript"> -->
+    <!-- <script src="scripts/game.js"></script> -->
     <title>
-      Data Types, User Input, Conditional Logic
+      Word Guess Game
     </title>
   </head>
   <body>
-        <script type="text/javascript">
-        <script src="scripts/game.js"></script>
-
+        
+      <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+            <img src="./assets/images/2-WordGuess.jpg" class="img-fluid" alt="Responsive image">
+        </div>
+      </div>
       <h1>Word Game</h1>
-      <h4> Guess what letter I'm thinking of</h4>
+      <h3> Guess what letter I'm thinking of!</h3>
 
       <div class="wins">
         <h4>Wins:</h4>
@@ -22,54 +30,14 @@
       </div>
 
       <div class="guesses_left">
-        <h4>Guesses Left:</h4>
+        <h4>Guesses left:</h4>
       </div>
 
       <div class="guesses_sofar">
         <h4>Your guesses so far:</h4>
       </div>
 
-      var correct = [y, v, a, k, t];
-
-      if (correct) {
-        alert(petName + " " + petType + " " + petAge);
-      }
-      else {
-        alert("You don't get my cat's information");
-      }
-
-      if (petIsCat) {
-        alert("My pet is a cat");
-      }
-      else {
-        alert("My pet is not a cat");
-      }
-
-      if (petAge !== 7) {
-        alert("My pet is not 7 years old");
-      }
-
-      if (petAge === 5) {
-        alert("My pet is 5 years old");
-      }
-      else if (petAge < 5) {
-        alert("My pet is less than 5 years old");
-      }
-      else if (petAge > 5) {
-        alert("My pet is older than 5 years old");
-      }
-
-      // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
-      document.write("Welcome to our page " + userName);
-
-      var catAge = prompt("How old is your cat?");
-
-      // Won't work as expected
-      alert(catAge + 2);
-
-      // Works as expected
-      alert(parseInt(catAge) + 2);
-
+     
     </script>
   </body>
 </html>
