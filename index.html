@@ -12,39 +12,42 @@
     </title>
   </head>
   <body>
-      
-    <button id="clear">Clear</button>
-    <div id="display"></div>
-    <div id="buttons"></div>
     <script type="text/javascript"></script>
     <script src="./assets/javascript/game.js"></script>
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript"></script>
       
-        <div class="jumbotron">
-            <img src="./assets/images/2-WordGuess.jpg" class="img-fluid" alt="Responsive image">
-        </div>
+   
+    <header>
+        <img src="./assets/images/question_mark.jpg">
+      <h1><strong>What animal is it?</strong></h1>
+    </header>
+
+    <div class= "container"> 
+      <div class= wins>
+        <h2>Wins:</h2>
+      </div>
+
+      <div class=losses>
+        <h2>Losses:</h2>
+      </div>
+  <div class= "blankspace">
+    <h3>Current Word</h3>
+  </div>
+  
+  <div class="guesses_correct">
+    <h4>Letter Guess:</h4>
+  </div>
+  
+  <div class="guesses_incorrect">
+    <h4>Incorrect Guess:</h4>
+  </div>
       
-    <div class= "container">  
-      <h1>Word Game</h1>
-      <h3> Guess what letter I'm thinking of!</h3>
-
-      <div class="wins">
-        <h4>Wins:</h4>
-      </div>
-
-      <div class="losses">
-        <h4>Losses:</h4>
-      </div>
-
-      <div class="guesses_left">
-        <h4>Guesses left:</h4>
-      </div>
-
-      <div class="guesses_sofar">
-        <h4>Your guesses so far:</h4>
-      </div>
     </div>
   </body>
 </html>
+
+
+
+
 
